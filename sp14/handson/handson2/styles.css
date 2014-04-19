@@ -1,0 +1,51 @@
+body {	
+
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background: whitesmoke;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	margin: 0px;
+
+}
+#container {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    margin-top: -240px;
+}
+.img-scaled {
+    width: 100%;
+    height: 100%;
+}
+
+#badge {
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	background: white;
+	border-radius: 2px;
+}
+#badge-icon {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	overflow: hidden;
+	border: 5px solid #DDD;
+}
+#badge-title {
+	color: #757c78;
+	font-weight: 700;
+	}
+#badge-description {
+	font-size: 12px;
+	line-height: 24px;
+}
+#badge-action {
+	font-size: 12px;
+	font-weight: 700;
+	background: #4989DA;
+	color: white;
+	border-radius: 2px;
+	width: 120px;
+}
