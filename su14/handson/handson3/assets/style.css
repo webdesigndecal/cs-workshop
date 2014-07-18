@@ -1,0 +1,74 @@
+body {	/*the outer layer of the site and global style attributes*/
+font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+margin: 0px;
+background: #f7f5f2;
+}
+
+/* Utility Stylesheets */
+
+a {
+color: inherit;
+text-decoration: none;
+}
+
+.clear {
+clear: both;
+}
+
+.img-scaled {
+width: 100%;
+}
+
+.img-scaled-wh {
+width: 100%;
+height: 100%;
+}
+
+.img-scaled-h {
+height: 100%;
+}
+
+.slide {
+    padding: 60px 0px;
+}
+.container {
+    width: 720px;
+    margin: 0px auto;
+    text-align: center;
+    color: white;
+}
+#reach {
+    background: #1abc9c;
+}
+#discover {
+    background: #3498db;
+}
+#engage {
+    background: #de6868;
+}
+.slide-thumbnail {
+    width: 240px;
+    height: 240px;
+    margin: 0px auto;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 10px solid rgba(255, 255, 255, 0.5);
+}
+.slide-title {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 300;
+}
+.slide-description {
+    font-size: 13px;
+    line-height: 24px;
+    margin-top: 20px;
+}
+#footer {
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+    background: #2f353f;
+    text-align: center;
+    padding: 10px 0px;
+}
