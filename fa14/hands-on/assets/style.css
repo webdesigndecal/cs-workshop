@@ -1,0 +1,57 @@
+body {
+    margin: 0px;
+    font-family: "Open sans", Helvetica, sans-serif;
+}
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.46);
+    padding: 15px;
+}
+.navbar-item {
+    margin-left: 20px;
+    font-weight: 300;
+}
+a.navbar-item {
+    color: white;
+    text-decoration: none;
+}
+.blog-image {
+    width: 100%;
+}
+.blog-text {
+    width: 720px;
+    margin: 40px auto;
+}
+.blog-title {
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.blog-timestamp {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.blog-lorem {
+    line-height: 1.5em;
+    font-weight: 300;
+    margin: 10px 0;
+}
+.button {
+    background: black;
+    color: white;
+    width: 100px;
+    text-align: center;
+    padding: 7px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.button-share {
+    background: #6392c0;
+    border: 1px solid black;
+    -webkit-transition: 0.5s;
+    margin-top: 20px;
+}
+.button-share:hover {
+    background: rgba(99, 146, 192, 0.7);
+}
